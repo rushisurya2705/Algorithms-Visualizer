@@ -1,0 +1,209 @@
+/* 
+.type{
+    width: 100%;
+    align-content: center;
+    background-color: #282c34;
+    text-align: center;
+    font-family: "Roboto Slab ExtraLight";
+}
+
+.Cards{
+    background-color: grey;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    position: center;
+    child-align: middle;
+}
+.page-footer{
+    background-color: #282c34;
+}
+.footer-copyright{
+    color:white;
+    background-color: black;
+}
+.greet{
+    text-align: center;
+    background-color: #434445;
+    color: white;
+    padding: 10px;
+} */
+
+
+/* General Page Styling */
+.type{
+    width: 100%;
+    align-content: center;
+    background-color: #282c34;
+    text-align: center;
+    font-family: "Roboto Slab ExtraLight";
+    color: #61dafb;
+}
+
+.CardsSearch {
+    background-color: rgb(198, 211, 212) ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.Cards {
+    background-color: rgb(198, 211, 212);
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-style-0 {
+    background-color: #f8f9fa;
+}
+
+.card-style-1 {
+    background-color: #e9ecef;
+}
+
+.card-style-2 {
+    background-color: #dee2e6;
+}
+
+.card-style-3 {
+    background-color: #f8f9fa;
+}
+
+.card-style-4 {
+    background-color: #e9ecef;
+}
+
+.card-style-5 {
+    background-color: #dee2e6;
+}
+
+/* Add more styles for other cards as needed */
+
+
+.page-footer {
+    background-color: #282c34;
+    padding: 10px 0;
+    color: #61dafb;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-copyright {
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.greet{
+    text-align: center;
+    background-color: #434445;
+    color: white;
+    padding: 10px;
+}
+
+/* Animation Effects */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Additional Styles for the About Page */
+
+/* General Page Styling */
+.about-container {
+    padding: 20px;
+    font-family: 'Arial, sans-serif';
+    background-color: #f4f4f4;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.about-container h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-container h2 {
+    font-size: 1.8rem;
+    color: #495057;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.about-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.about-container ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.about-container ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Animation Effects */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-container {
+        padding: 15px;
+    }
+
+    .about-container h1 {
+        font-size: 2rem;
+    }
+
+    .about-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-container p,
+    .about-container ul li {
+        font-size: 0.95rem;
+    }
+}
