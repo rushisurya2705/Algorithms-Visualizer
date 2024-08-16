@@ -2,7 +2,7 @@
 
 A better visualization of different algorithms made with React. 
 
-Visit : https://github.com/rushisurya2705/Algorithms-Visualizer.git
+Visit : https://algorithmsvisualizer-rushikesh-suryavanshis-projects.vercel.app/
 
 This is made to be the second version of my previous pathfinding project made with C++ igraphics. But then added some more visualizations too.  
 
